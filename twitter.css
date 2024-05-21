@@ -1,0 +1,112 @@
+.clone{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(79, 79, 171, 0.584);
+    height: 80px;
+}
+.search{
+    display: flex;
+    gap: 10px;
+}
+.search select {
+    float: right;
+    
+    border: none;
+    margin-top: 16px;
+    margin-right: 15px;
+    font-size: 17px;
+    margin-bottom: 24px;
+    padding-right: 200px;
+    border-radius: 3px;
+  }
+  .clone p{
+    color: white;
+    font-size: larger;
+  }
+  .brick{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+  }
+  .man img{
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    left: 2%;
+    top: 28%;
+
+  }
+  .search label{
+    color: white;
+    font-size: larger;
+    margin-top: 20px;
+  }
+  .last{
+    margin-top: 100px;
+    display: flex;
+    
+    
+    
+    
+  }
+  /*.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }*/
+  .pic img{
+    width: 50px;
+    height: 70px;
+    
+  }
+  .pic{
+    
+  }
+  .one{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .retweets{
+    display: flex;
+    gap: 10px;
+  }
+  .chat{
+    width: 12px;
+    height: 12px;
+  }
+  .rep{
+    width: 12px;
+    height: 12px;
+  }
+  .love{
+    width: 12px;
+    height: 12px;
+  }
+  .ccontainer,.pcontainer{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .posts,.comments{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+  }
+  #postscontainer{
+    display: flex;
+  }
+  .ccmmentsContainer{
+    display: flex;
+  }
+  
